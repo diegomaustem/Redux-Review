@@ -15,8 +15,6 @@ function Header() {
   const { currentUser } = useSelector((rootReducer) => rootReducer.userReducer);
   const dispatch = useDispatch();
 
-  console.log("Testando here:", currentUser);
-
   const handleCartClick = () => {
     setCartIsVisible(true);
   };
